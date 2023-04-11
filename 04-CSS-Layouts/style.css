@@ -40,7 +40,6 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
- 
 }
 
 nav {
@@ -74,7 +73,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -162,8 +161,6 @@ a:active {
 }
 
 nav a:link {
-  padding: 10px;
-  display:block;
   margin-right: 30px;
   display: inline-block;
 }
@@ -229,13 +226,13 @@ footer p {
 
 /*Floats*/
 
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
 
 .author {
-  /*padding-left: 80px;*/
+  padding-left: 80px;
   margin-top: 10px;
   float: left;
   margin-left: 20px;
@@ -272,4 +269,11 @@ float: right
 
 footer {
 clear:both
+} */
+
+/* FLEXBOX */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
