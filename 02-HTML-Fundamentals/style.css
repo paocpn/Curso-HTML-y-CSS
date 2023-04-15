@@ -162,7 +162,7 @@ button:hover {
 
 .father {
   gap: 40px;
-  align-items: center;
+  align-content: center;
 }
 
 .basic-info-container {
